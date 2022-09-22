@@ -1,7 +1,11 @@
-# This is a sample Python script.
+import numpy as np
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-import numpy
+print(np.__version__)
 
-print(numpy.__version__)
+arr = [1,4,2,5,3]
+n_arr = np.array(arr)
+print(arr)
+print(type(arr))
+print(n_arr)
+print(type(n_arr))
+
